@@ -72,13 +72,14 @@ void Renderer::end_frame()
     LOG("INFO::GRAPHICS::RENDERER::Nothing in the vertex batch ...\n");
     return;
   }
-  if(m_shader.find("main") != m_shader.end())
-  {
-    m_shader["main"].add_mat4("u_Projection", m_projection);
-  }
+  // if(m_shader.find("main") != m_shader.end())
+  // {
+    m_selectedShader.use();
+    m_selectedShader.add_mat4("projection", m_projection);
+  // }
   glBindBuffer(GL_ARRAY_BUFFER, m_VBO);
   glBufferSubData(GL_ARRAY_BUFFER, 0, m_batch.size() * sizeof(Vertex), m_batch.data());
-
+  m_selectedShader.use();
   glBindVertexArray(m_VAO);
   glDrawArrays(GL_TRIANGLES, 0, m_batch.size());
   glBindVertexArray(0);
@@ -88,7 +89,7 @@ Renderer::~Renderer()
 {
 }
 
-void Renderer::pass_shader(Shader shader, std::string shaderName)
+void Renderer::pass_shader(Shader &shader, std::string shaderName)
 {
   m_shader[shaderName] = shader;
 }
@@ -96,11 +97,13 @@ void Renderer::pass_shader(Shader shader, std::string shaderName)
 void Renderer::select_shader(std::string ShaderName)
 {
   m_shader[ShaderName].use();
+  m_selectedShader = m_shader[ShaderName];
 }
 
-void Renderer::select_shader(Shader shader)
+void Renderer::select_shader(Shader &shader)
 {
   shader.use();
+  m_selectedShader = shader;
 }
 
 void Renderer::set_projection(glm::mat4 &matrix)

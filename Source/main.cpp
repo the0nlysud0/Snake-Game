@@ -5,6 +5,7 @@
 #include "utils/mb_utils.h"
 #include <string>
 #include "graphics/mb_shader.h"
+#include "graphics/mb_renderer.h"
 #include <glm/gtc/matrix_transform.hpp>
 
 
@@ -24,7 +25,10 @@ int main()
   shader.add_shader("../Assets/Shaders/basic.vs.glsl" , GL_VERTEX_SHADER);
   shader.add_shader("../Assets/Shaders/basic.fs.glsl" , GL_FRAGMENT_SHADER);
   shader.link_program();
-  shader.use();
+
+  Renderer renderer(window);
+  renderer.pass_shader(shader, "main");
+
   LOG("OpenGL Version: ", glGetString(GL_VERSION), '\n');
   LOG("GLSL Version: ", glGetString(GL_SHADING_LANGUAGE_VERSION), '\n');
   // Try VAOs
@@ -55,8 +59,12 @@ int main()
   glBindVertexArray(0);
   while(!glfwWindowShouldClose(window))
   {
-    glClear(GL_COLOR_BUFFER_BIT);
-    glClearColor(0.0f,0.0f,0.0f,1.0f);
+    renderer.begin_frame();
+    proj = glm::ortho(-200.0f , 200.0f , -100.0f ,100.0f);
+    renderer.draw_quad(glm::vec2(0.0f,0.0f), glm::vec2(0.5f,0.5f) , glm::vec4(1.0f,1.0f,1.0f,1.0f));
+    renderer.draw_quad(glm::vec2(-.50f,0.0f), glm::vec2(0.5f,0.5f) , glm::vec4(1.0f,1.0f,1.0f,1.0f));
+    renderer.set_projection(proj);
+    renderer.select_shader(shader);
     glfwPollEvents();
     if(glfwGetKey(window,GLFW_KEY_O)==GLFW_PRESS)
     {
@@ -65,9 +73,7 @@ int main()
       std::string Balls;
       ReadFile(FileOpened ,Balls);
     }
-    shader.use();
-    glBindVertexArray(VAO);
-    glDrawArrays(GL_TRIANGLES , 0 , 6);
+    renderer.end_frame();
     glfwSwapBuffers(window);
   }
   glfwTerminate();

@@ -23,9 +23,9 @@ class Renderer {
 public:
     Renderer(GLFWwindow* window);
     ~Renderer();
-    void pass_shader(Shader shader , std::string shaderName);
+    void pass_shader(Shader &shader , std::string shaderName);
     void select_shader(std::string ShaderName);
-    void select_shader(Shader shader);
+    void select_shader(Shader &shader);
 
     void set_projection(glm::mat4& matrix);
 
@@ -35,6 +35,7 @@ public:
 
 private:
     std::unordered_map<std::string , Shader> m_shader;
+    Shader m_selectedShader;
     unsigned int m_VAO, m_VBO;
     std::vector<Vertex> m_batch;
     glm::mat4 m_projection;

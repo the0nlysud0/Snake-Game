@@ -986,6 +986,7 @@ CMakeFiles/SnakeOGL.dir/Source/main.cpp.o: \
   /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/vector_relational.hpp \
   /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/integer.hpp \
   /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/detail/func_integer.inl \
+  /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_renderer.h \
   /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/gtc/matrix_transform.hpp \
   /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/gtc/../mat4x4.hpp \
   /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/gtc/../vec2.hpp \

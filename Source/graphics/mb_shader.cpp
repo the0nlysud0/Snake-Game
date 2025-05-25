@@ -64,5 +64,5 @@ void Shader::add_vec4(std::string UniformName, glm::vec4 &p_vector)
 
 Shader::~Shader()
 {
-  glDeleteProgram(m_ShaderID);
+  // glDeleteProgram(m_ShaderID);
 }

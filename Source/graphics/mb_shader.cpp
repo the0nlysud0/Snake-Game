@@ -55,11 +55,33 @@ void Shader::add_mat4(std::string UniformName, glm::mat4 &matrix)
   glUniformMatrix4fv(location , 1 ,GL_FALSE,glm::value_ptr(matrix));
 }
 
+void Shader::add_vec3(std::string UniformName, glm::vec3 &p_vector)
+{
+  unsigned int location = glGetUniformLocation(m_ShaderID , UniformName.c_str());
+  // LOG("Uniform location for ", UniformName, ": ", location, '\n');
+  glUniform3fv(location , 1 ,glm::value_ptr(p_vector));
+}
+
 void Shader::add_vec4(std::string UniformName, glm::vec4 &p_vector)
 {
   unsigned int location = glGetUniformLocation(m_ShaderID , UniformName.c_str());
-  LOG("Uniform location for ", UniformName, ": ", location, '\n');
-  glUniformMatrix4fv(location , 1 ,GL_FALSE,glm::value_ptr(p_vector));
+  // LOG("Uniform location for ", UniformName, ": ", location, '\n');
+  glUniform4fv(location , 1, glm::value_ptr(p_vector));
+}
+
+void Shader::add_float(std::string UniformName, float &p_float)
+{
+  unsigned int location = glGetUniformLocation(m_ShaderID , UniformName.c_str());
+  // LOG("Uniform location for ", UniformName, ": ", location, '\n');
+  LOG("ANGLE: " , p_float);
+  glUniform1fv(location , 1, &p_float);
+}
+
+void Shader::add_int_array(std::string UniformName, int *p_array, int size)
+{
+  unsigned int location = glGetUniformLocation(m_ShaderID , UniformName.c_str());
+  // LOG("Uniform location for ", UniformName, ": ", location, '\n');
+  glUniform1iv(location , size , p_array);
 }
 
 Shader::~Shader()

@@ -14,7 +14,12 @@ include_directories("Include/")
 add_executable(SnakeOGL "Source/main.cpp"
         "Source/graphics/glad.c"
         "Source/graphics/mb_shader.cpp"
+        "Source/graphics/mb_texture.cpp"
+        "Source/graphics/stb_image.cpp"
         "Source/graphics/mb_renderer.cpp"
+        "Source/logic/mb_world.cpp"
+        "Source/logic/mb_object.cpp"
+        "Source/logic/snake.cpp"
         "Source/utils/mb_FileDialog.mm"
         "source/utils/mb_utils.cpp"
         )

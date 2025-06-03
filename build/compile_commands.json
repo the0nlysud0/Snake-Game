@@ -19,9 +19,39 @@
 },
 {
   "directory": "/Users/mehdi/Documents/GitHub/Snake-Game/build",
+  "command": "/usr/bin/clang++ -DDEBUG -DMACOS -I/Users/mehdi/Documents/GitHub/Snake-Game/Include -g -std=gnu++17 -o CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_texture.cpp",
+  "file": "/Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_texture.cpp",
+  "output": "CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o"
+},
+{
+  "directory": "/Users/mehdi/Documents/GitHub/Snake-Game/build",
+  "command": "/usr/bin/clang++ -DDEBUG -DMACOS -I/Users/mehdi/Documents/GitHub/Snake-Game/Include -g -std=gnu++17 -o CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/stb_image.cpp",
+  "file": "/Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/stb_image.cpp",
+  "output": "CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.o"
+},
+{
+  "directory": "/Users/mehdi/Documents/GitHub/Snake-Game/build",
   "command": "/usr/bin/clang++ -DDEBUG -DMACOS -I/Users/mehdi/Documents/GitHub/Snake-Game/Include -g -std=gnu++17 -o CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_renderer.cpp",
   "file": "/Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_renderer.cpp",
   "output": "CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.o"
+},
+{
+  "directory": "/Users/mehdi/Documents/GitHub/Snake-Game/build",
+  "command": "/usr/bin/clang++ -DDEBUG -DMACOS -I/Users/mehdi/Documents/GitHub/Snake-Game/Include -g -std=gnu++17 -o CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_world.cpp",
+  "file": "/Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_world.cpp",
+  "output": "CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.o"
+},
+{
+  "directory": "/Users/mehdi/Documents/GitHub/Snake-Game/build",
+  "command": "/usr/bin/clang++ -DDEBUG -DMACOS -I/Users/mehdi/Documents/GitHub/Snake-Game/Include -g -std=gnu++17 -o CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_object.cpp",
+  "file": "/Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_object.cpp",
+  "output": "CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.o"
+},
+{
+  "directory": "/Users/mehdi/Documents/GitHub/Snake-Game/build",
+  "command": "/usr/bin/clang++ -DDEBUG -DMACOS -I/Users/mehdi/Documents/GitHub/Snake-Game/Include -g -std=gnu++17 -o CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/snake.cpp",
+  "file": "/Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/snake.cpp",
+  "output": "CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.o"
 },
 {
   "directory": "/Users/mehdi/Documents/GitHub/Snake-Game/build",

@@ -114,10 +114,38 @@ CMakeFiles/SnakeOGL.dir/Source/graphics/mb_shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeOGL.dir/Source/graphics/mb_shader.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_shader.cpp -o CMakeFiles/SnakeOGL.dir/Source/graphics/mb_shader.cpp.s
 
+CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o: CMakeFiles/SnakeOGL.dir/flags.make
+CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o: /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_texture.cpp
+CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o: CMakeFiles/SnakeOGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o -MF CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o.d -o CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_texture.cpp
+
+CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_texture.cpp > CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.i
+
+CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_texture.cpp -o CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.s
+
+CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.o: CMakeFiles/SnakeOGL.dir/flags.make
+CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.o: /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/stb_image.cpp
+CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.o: CMakeFiles/SnakeOGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.o -MF CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.o.d -o CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/stb_image.cpp
+
+CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/stb_image.cpp > CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.i
+
+CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/stb_image.cpp -o CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.s
+
 CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.o: CMakeFiles/SnakeOGL.dir/flags.make
 CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.o: /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_renderer.cpp
 CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.o: CMakeFiles/SnakeOGL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.o -MF CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.o.d -o CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_renderer.cpp
 
 CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.i: cmake_force
@@ -128,10 +156,52 @@ CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_renderer.cpp -o CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.s
 
+CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.o: CMakeFiles/SnakeOGL.dir/flags.make
+CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.o: /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_world.cpp
+CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.o: CMakeFiles/SnakeOGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.o -MF CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.o.d -o CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_world.cpp
+
+CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_world.cpp > CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.i
+
+CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_world.cpp -o CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.s
+
+CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.o: CMakeFiles/SnakeOGL.dir/flags.make
+CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.o: /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_object.cpp
+CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.o: CMakeFiles/SnakeOGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.o -MF CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.o.d -o CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_object.cpp
+
+CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_object.cpp > CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.i
+
+CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_object.cpp -o CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.s
+
+CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.o: CMakeFiles/SnakeOGL.dir/flags.make
+CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.o: /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/snake.cpp
+CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.o: CMakeFiles/SnakeOGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.o -MF CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.o.d -o CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/snake.cpp
+
+CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/snake.cpp > CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.i
+
+CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/snake.cpp -o CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.s
+
 CMakeFiles/SnakeOGL.dir/Source/utils/mb_FileDialog.mm.o: CMakeFiles/SnakeOGL.dir/flags.make
 CMakeFiles/SnakeOGL.dir/Source/utils/mb_FileDialog.mm.o: /Users/mehdi/Documents/GitHub/Snake-Game/Source/utils/mb_FileDialog.mm
 CMakeFiles/SnakeOGL.dir/Source/utils/mb_FileDialog.mm.o: CMakeFiles/SnakeOGL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SnakeOGL.dir/Source/utils/mb_FileDialog.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SnakeOGL.dir/Source/utils/mb_FileDialog.mm.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeOGL.dir/Source/utils/mb_FileDialog.mm.o -MF CMakeFiles/SnakeOGL.dir/Source/utils/mb_FileDialog.mm.o.d -o CMakeFiles/SnakeOGL.dir/Source/utils/mb_FileDialog.mm.o -c /Users/mehdi/Documents/GitHub/Snake-Game/Source/utils/mb_FileDialog.mm
 
 CMakeFiles/SnakeOGL.dir/Source/utils/mb_FileDialog.mm.i: cmake_force
@@ -145,7 +215,7 @@ CMakeFiles/SnakeOGL.dir/Source/utils/mb_FileDialog.mm.s: cmake_force
 CMakeFiles/SnakeOGL.dir/source/utils/mb_utils.cpp.o: CMakeFiles/SnakeOGL.dir/flags.make
 CMakeFiles/SnakeOGL.dir/source/utils/mb_utils.cpp.o: /Users/mehdi/Documents/GitHub/Snake-Game/source/utils/mb_utils.cpp
 CMakeFiles/SnakeOGL.dir/source/utils/mb_utils.cpp.o: CMakeFiles/SnakeOGL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SnakeOGL.dir/source/utils/mb_utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SnakeOGL.dir/source/utils/mb_utils.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeOGL.dir/source/utils/mb_utils.cpp.o -MF CMakeFiles/SnakeOGL.dir/source/utils/mb_utils.cpp.o.d -o CMakeFiles/SnakeOGL.dir/source/utils/mb_utils.cpp.o -c /Users/mehdi/Documents/GitHub/Snake-Game/source/utils/mb_utils.cpp
 
 CMakeFiles/SnakeOGL.dir/source/utils/mb_utils.cpp.i: cmake_force
@@ -161,7 +231,12 @@ SnakeOGL_OBJECTS = \
 "CMakeFiles/SnakeOGL.dir/Source/main.cpp.o" \
 "CMakeFiles/SnakeOGL.dir/Source/graphics/glad.c.o" \
 "CMakeFiles/SnakeOGL.dir/Source/graphics/mb_shader.cpp.o" \
+"CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o" \
+"CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.o" \
 "CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.o" \
+"CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.o" \
+"CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.o" \
+"CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.o" \
 "CMakeFiles/SnakeOGL.dir/Source/utils/mb_FileDialog.mm.o" \
 "CMakeFiles/SnakeOGL.dir/source/utils/mb_utils.cpp.o"
 
@@ -171,13 +246,18 @@ SnakeOGL_EXTERNAL_OBJECTS =
 SnakeOGL: CMakeFiles/SnakeOGL.dir/Source/main.cpp.o
 SnakeOGL: CMakeFiles/SnakeOGL.dir/Source/graphics/glad.c.o
 SnakeOGL: CMakeFiles/SnakeOGL.dir/Source/graphics/mb_shader.cpp.o
+SnakeOGL: CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o
+SnakeOGL: CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.o
 SnakeOGL: CMakeFiles/SnakeOGL.dir/Source/graphics/mb_renderer.cpp.o
+SnakeOGL: CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.o
+SnakeOGL: CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.o
+SnakeOGL: CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.o
 SnakeOGL: CMakeFiles/SnakeOGL.dir/Source/utils/mb_FileDialog.mm.o
 SnakeOGL: CMakeFiles/SnakeOGL.dir/source/utils/mb_utils.cpp.o
 SnakeOGL: CMakeFiles/SnakeOGL.dir/build.make
 SnakeOGL: /Users/mehdi/Documents/GitHub/Snake-Game/Libs/macOS/libglfw3.a
 SnakeOGL: CMakeFiles/SnakeOGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable SnakeOGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mehdi/Documents/GitHub/Snake-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable SnakeOGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SnakeOGL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

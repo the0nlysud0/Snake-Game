@@ -6,8 +6,8 @@
 #include <string>
 #include "graphics/mb_shader.h"
 #include "graphics/mb_renderer.h"
-#include <glm/gtc/matrix_transform.hpp>
-
+#include "logic/snake.h"
+#include <random>
 
 int main()
 {
@@ -20,60 +20,43 @@ int main()
   #endif
   GLFWwindow* window =glfwCreateWindow(800 , 600 , "Snake Game" ,NULL , NULL);
   glfwMakeContextCurrent(window);
+  glfwSwapInterval(1);
   gladLoadGL();
   Shader shader;
   shader.add_shader("../Assets/Shaders/basic.vs.glsl" , GL_VERTEX_SHADER);
   shader.add_shader("../Assets/Shaders/basic.fs.glsl" , GL_FRAGMENT_SHADER);
   shader.link_program();
-
+  std::random_device rd;              // Random seed
+  std::mt19937 gen(rd());             // Mersenne Twister engine
+  std::uniform_real_distribution<> dist(-1.0f, 1.0f);
   Renderer renderer(window);
   renderer.pass_shader(shader, "main");
+  // ? Asset loading
+
+  Texture2D apple_("/Users/mehdi/Documents/GitHub/Snake-Game/Assets/Textures/apple.png");
 
   LOG("OpenGL Version: ", glGetString(GL_VERSION), '\n');
   LOG("GLSL Version: ", glGetString(GL_SHADING_LANGUAGE_VERSION), '\n');
-  // Try VAOs
-  unsigned int VAO ,VBO;
-  glGenVertexArrays(1,&VAO);
-  glGenBuffers(1, &VBO);
+  GameWorld world;
+  world.attach_renderer(renderer);
+  world.attach_window(window);
 
-  glBindVertexArray(VAO);
-  glm::mat4 proj = glm::mat4(1.0f);
-  float square[] = {
-    -0.50f , -.50f,
-      .50f , -.50f,
-      .50f ,  .50f,
+  mb_snake snake(world);
 
-    - .50f , -.50f,
-      .50f ,  .50f,
-     -.50f ,  .50f,
-  };
-  glBindBuffer(GL_ARRAY_BUFFER , VBO);
-  glBufferData(GL_ARRAY_BUFFER , 6*2*2 *sizeof(float) ,square,GL_STATIC_DRAW);
+  mb_object apple(world);
+  apple.add_internal("apple");
+  apple.add_transform("apple" , {glm::vec2(dist(gen),dist(gen)) , 0.0f,glm::vec2(0.2f,0.2f)});
+  Sprite sprite_apple;
+  sprite_apple.texture = &apple_;
+  apple.add_sprite("apple",sprite_apple);
 
-  glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), (void*)0);
-  glEnableVertexAttribArray(0);
-
-  proj = glm::ortho(-200.0f , 200.0f , -100.0f ,100.0f);
-  shader.use();
-  shader.add_mat4("projection" , proj);
-  glBindVertexArray(0);
   while(!glfwWindowShouldClose(window))
   {
-    renderer.begin_frame();
-    proj = glm::ortho(-200.0f , 200.0f , -100.0f ,100.0f);
-    renderer.draw_quad(glm::vec2(0.0f,0.0f), glm::vec2(0.5f,0.5f) , glm::vec4(1.0f,1.0f,1.0f,1.0f));
-    renderer.draw_quad(glm::vec2(-.50f,0.0f), glm::vec2(0.5f,0.5f) , glm::vec4(1.0f,1.0f,1.0f,1.0f));
-    renderer.set_projection(proj);
     renderer.select_shader(shader);
+    snake.move();
+    world.update(0.1666f);
+    world.render();
     glfwPollEvents();
-    if(glfwGetKey(window,GLFW_KEY_O)==GLFW_PRESS)
-    {
-      std::string FileOpened = mb_OpenFileDialog();
-      LOG(FileOpened , '\n');
-      std::string Balls;
-      ReadFile(FileOpened ,Balls);
-    }
-    renderer.end_frame();
     glfwSwapBuffers(window);
   }
   glfwTerminate();

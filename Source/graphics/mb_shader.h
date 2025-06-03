@@ -12,6 +12,9 @@ public:
   void link_program();
   void use() const;
   void add_mat4(std::string UniformName , glm::mat4& matrix);
+  void add_vec3(std::string UniformName , glm::vec3& p_vector);
   void add_vec4(std::string UniformName , glm::vec4& p_vector);
+  void add_float(std::string UniformName , float& p_float);
+  void add_int_array(std::string UniformName , int* p_array, int size);
   ~Shader();
 };

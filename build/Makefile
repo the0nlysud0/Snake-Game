@@ -201,6 +201,126 @@ Source/graphics/mb_shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/graphics/mb_shader.cpp.s
 .PHONY : Source/graphics/mb_shader.cpp.s
 
+Source/graphics/mb_texture.o: Source/graphics/mb_texture.cpp.o
+.PHONY : Source/graphics/mb_texture.o
+
+# target to build an object file
+Source/graphics/mb_texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o
+.PHONY : Source/graphics/mb_texture.cpp.o
+
+Source/graphics/mb_texture.i: Source/graphics/mb_texture.cpp.i
+.PHONY : Source/graphics/mb_texture.i
+
+# target to preprocess a source file
+Source/graphics/mb_texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.i
+.PHONY : Source/graphics/mb_texture.cpp.i
+
+Source/graphics/mb_texture.s: Source/graphics/mb_texture.cpp.s
+.PHONY : Source/graphics/mb_texture.s
+
+# target to generate assembly for a file
+Source/graphics/mb_texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.s
+.PHONY : Source/graphics/mb_texture.cpp.s
+
+Source/graphics/stb_image.o: Source/graphics/stb_image.cpp.o
+.PHONY : Source/graphics/stb_image.o
+
+# target to build an object file
+Source/graphics/stb_image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.o
+.PHONY : Source/graphics/stb_image.cpp.o
+
+Source/graphics/stb_image.i: Source/graphics/stb_image.cpp.i
+.PHONY : Source/graphics/stb_image.i
+
+# target to preprocess a source file
+Source/graphics/stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.i
+.PHONY : Source/graphics/stb_image.cpp.i
+
+Source/graphics/stb_image.s: Source/graphics/stb_image.cpp.s
+.PHONY : Source/graphics/stb_image.s
+
+# target to generate assembly for a file
+Source/graphics/stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/graphics/stb_image.cpp.s
+.PHONY : Source/graphics/stb_image.cpp.s
+
+Source/logic/mb_object.o: Source/logic/mb_object.cpp.o
+.PHONY : Source/logic/mb_object.o
+
+# target to build an object file
+Source/logic/mb_object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.o
+.PHONY : Source/logic/mb_object.cpp.o
+
+Source/logic/mb_object.i: Source/logic/mb_object.cpp.i
+.PHONY : Source/logic/mb_object.i
+
+# target to preprocess a source file
+Source/logic/mb_object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.i
+.PHONY : Source/logic/mb_object.cpp.i
+
+Source/logic/mb_object.s: Source/logic/mb_object.cpp.s
+.PHONY : Source/logic/mb_object.s
+
+# target to generate assembly for a file
+Source/logic/mb_object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/logic/mb_object.cpp.s
+.PHONY : Source/logic/mb_object.cpp.s
+
+Source/logic/mb_world.o: Source/logic/mb_world.cpp.o
+.PHONY : Source/logic/mb_world.o
+
+# target to build an object file
+Source/logic/mb_world.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.o
+.PHONY : Source/logic/mb_world.cpp.o
+
+Source/logic/mb_world.i: Source/logic/mb_world.cpp.i
+.PHONY : Source/logic/mb_world.i
+
+# target to preprocess a source file
+Source/logic/mb_world.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.i
+.PHONY : Source/logic/mb_world.cpp.i
+
+Source/logic/mb_world.s: Source/logic/mb_world.cpp.s
+.PHONY : Source/logic/mb_world.s
+
+# target to generate assembly for a file
+Source/logic/mb_world.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/logic/mb_world.cpp.s
+.PHONY : Source/logic/mb_world.cpp.s
+
+Source/logic/snake.o: Source/logic/snake.cpp.o
+.PHONY : Source/logic/snake.o
+
+# target to build an object file
+Source/logic/snake.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.o
+.PHONY : Source/logic/snake.cpp.o
+
+Source/logic/snake.i: Source/logic/snake.cpp.i
+.PHONY : Source/logic/snake.i
+
+# target to preprocess a source file
+Source/logic/snake.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.i
+.PHONY : Source/logic/snake.cpp.i
+
+Source/logic/snake.s: Source/logic/snake.cpp.s
+.PHONY : Source/logic/snake.s
+
+# target to generate assembly for a file
+Source/logic/snake.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeOGL.dir/build.make CMakeFiles/SnakeOGL.dir/Source/logic/snake.cpp.s
+.PHONY : Source/logic/snake.cpp.s
+
 Source/main.o: Source/main.cpp.o
 .PHONY : Source/main.o
 
@@ -291,6 +411,21 @@ help:
 	@echo "... Source/graphics/mb_shader.o"
 	@echo "... Source/graphics/mb_shader.i"
 	@echo "... Source/graphics/mb_shader.s"
+	@echo "... Source/graphics/mb_texture.o"
+	@echo "... Source/graphics/mb_texture.i"
+	@echo "... Source/graphics/mb_texture.s"
+	@echo "... Source/graphics/stb_image.o"
+	@echo "... Source/graphics/stb_image.i"
+	@echo "... Source/graphics/stb_image.s"
+	@echo "... Source/logic/mb_object.o"
+	@echo "... Source/logic/mb_object.i"
+	@echo "... Source/logic/mb_object.s"
+	@echo "... Source/logic/mb_world.o"
+	@echo "... Source/logic/mb_world.i"
+	@echo "... Source/logic/mb_world.s"
+	@echo "... Source/logic/snake.o"
+	@echo "... Source/logic/snake.i"
+	@echo "... Source/logic/snake.s"
 	@echo "... Source/main.o"
 	@echo "... Source/main.i"
 	@echo "... Source/main.s"

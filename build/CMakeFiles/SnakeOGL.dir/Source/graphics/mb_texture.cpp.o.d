@@ -1,6 +1,9 @@
-CMakeFiles/SnakeOGL.dir/Source/main.cpp.o: \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Source/main.cpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
+CMakeFiles/SnakeOGL.dir/Source/graphics/mb_texture.cpp.o: \
+  /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_texture.cpp \
+  /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_texture.h \
+  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glad/glad.h \
+  /Users/mehdi/Documents/GitHub/Snake-Game/Include/KHR/khrplatform.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/abi.h \
@@ -8,6 +11,93 @@ CMakeFiles/SnakeOGL.dir/Source/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/language.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
+  /Users/mehdi/Documents/GitHub/Snake-Game/Include/stb_image.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_printf.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_mcontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_mcontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/i386/_structs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/__endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/alloca.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/version \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ios.h \
@@ -19,21 +109,12 @@ CMakeFiles/SnakeOGL.dir/Source/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_xlocale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_locale_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/three_way_comparable.h \
@@ -125,72 +206,6 @@ CMakeFiles/SnakeOGL.dir/Source/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_mcontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_mcontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/i386/_structs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/__endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/i386/_OSByteOrder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/alloca.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_const.h \
@@ -356,7 +371,6 @@ CMakeFiles/SnakeOGL.dir/Source/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/type_identity.h \
@@ -456,16 +470,6 @@ CMakeFiles/SnakeOGL.dir/Source/main.cpp.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_arg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg___va_copy.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_printf.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h \
@@ -793,256 +797,4 @@ CMakeFiles/SnakeOGL.dir/Source/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glad/glad.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/KHR/khrplatform.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/GLFW/glfw3.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Source/utils/mb_utils.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_shader.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/glm.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/detail/_fixes.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/detail/setup.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/detail/../simd/platform.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/fwd.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/detail/qualifier.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/vec2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_bool2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/type_vec2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/qualifier.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/type_vec2.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/./compute_vector_relational.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/./setup.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_bool2_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_float2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_float2_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_double2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_double2_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_int2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_int2_sized.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../ext/vector_int2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../ext/scalar_int_sized.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../ext/../detail/setup.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_uint2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_uint2_sized.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../ext/vector_uint2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../ext/scalar_uint_sized.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/vec3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_bool3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/type_vec3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/type_vec3.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/compute_vector_relational.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_bool3_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_float3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_float3_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_double3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_double3_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_int3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_int3_sized.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../ext/vector_int3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_uint3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_uint3_sized.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../ext/vector_uint3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/vec4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_bool4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/type_vec4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/type_vec4.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_bool4_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_float4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_float4_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_double4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_double4_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/setup.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_int4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_int4_sized.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../ext/vector_int4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_uint4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/vector_uint4_sized.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../ext/vector_uint4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/mat2x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/matrix_double2x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/type_mat2x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/type_mat2x2.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../matrix.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/qualifier.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/setup.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../vec2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../vec3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../vec4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../mat2x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../mat2x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double2x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat2x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_vec2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_vec3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat2x3.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double2x3_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float2x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float2x3_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../mat2x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double2x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat2x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_vec4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat2x4.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double2x4_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float2x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float2x4_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../mat3x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double3x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat3x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat3x2.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double3x2_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float3x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float3x2_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../mat3x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double3x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat3x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat3x3.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/../matrix.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double3x3_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float3x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float3x3_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../mat3x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double3x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat3x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat3x4.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double3x4_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float3x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float3x4_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../mat4x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double4x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat4x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat4x2.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double4x2_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float4x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float4x2_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat2x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../mat4x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double4x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat4x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat4x3.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double4x3_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float4x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float4x3_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../mat4x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double4x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat4x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/../detail/type_mat4x4.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_double4x4_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float4x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/.././ext/matrix_float4x4_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/func_matrix.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../geometric.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/type_vec3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/func_geometric.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../exponential.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/qualifier.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/./compute_vector_relational.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/type_vec2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/type_vec3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/type_vec4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/func_exponential.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/../vector_relational.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/../detail/qualifier.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/../detail/setup.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/../detail/func_vector_relational.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/_vectorize.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../common.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/_fixes.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/func_common.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/compute_common.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/../detail/../detail/../detail/../detail/setup.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/matrix_double2x2_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/matrix_float2x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/./ext/matrix_float2x2_precision.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/mat2x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/mat2x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/mat3x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/mat3x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/mat3x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/mat4x2.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/mat4x3.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/mat4x4.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/trigonometric.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/detail/func_trigonometric.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/detail/_vectorize.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/exponential.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/common.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/packing.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/detail/func_packing.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/detail/../common.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/detail/type_half.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/detail/type_half.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/geometric.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/matrix.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/vector_relational.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/integer.hpp \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/glm/detail/func_integer.inl \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_renderer.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/mb_texture.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Include/stb_image.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/snake.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_object.h \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/mb_world.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
-  /Users/mehdi/Documents/GitHub/Snake-Game/Source/logic/../graphics/mb_renderer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/random \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/generate_canonical.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/default_random_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/reduce.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/geometric_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/poisson_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/normal_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/independent_bits_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/knuth_b.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/lognormal_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/random_device.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/ranlux.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/seed_seq.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/weibull_distribution.h
+  /Users/mehdi/Documents/GitHub/Snake-Game/Source/graphics/../utils/mb_utils.h
